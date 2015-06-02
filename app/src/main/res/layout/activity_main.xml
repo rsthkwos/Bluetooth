@@ -16,4 +16,58 @@
         android:text="@string/ScanBluetooth"
         android:textAllCaps="false"
         android:onClick="buttonOnClick" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/btnScanBluetooth"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_below="@+id/seekBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar3"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+        android:layout_below="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentEnd="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar5"
+        android:layout_below="@+id/seekBar4"
+        android:layout_alignStart="@+id/seekBar4"
+        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@+id/seekBar4" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar6"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@+id/seekBar5"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
